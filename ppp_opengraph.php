@@ -1,13 +1,19 @@
 <?php
 /*
 Plugin Name: Pimpampum OpenGraph
-Description:  Afegeix opengraph per facebook
+Description:  Add opengraph metatags for facebook
 Version: 1.0
 Author: Pimpampum
 Author URI: http://www.pimpampum.net
 License: GPL2
 */
 
+/** todo list
+
+- twitter cards
+- rest of wp urls
+
+*/
 function doctype_opengraph($output) {
     return $output . '
     xmlns:og="http://opengraphprotocol.org/schema/"
